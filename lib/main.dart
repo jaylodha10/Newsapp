@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:newsapp/firebase_options.dart';
 import 'package:newsapp/pages/landing_page.dart';
 import 'package:newsapp/pages/sign_up.dart';
-import 'package:newsapp/pages/toss.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,7 +24,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MyTossState(),
+      home: const LandingPage()
       // StreamBuilder(
       //     stream: FirebaseAuth.instance.authStateChanges(),
       //     builder: (context, snapshot) {
