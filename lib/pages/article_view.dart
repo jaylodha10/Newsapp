@@ -20,7 +20,7 @@ class _ArticleViewState extends State<ArticleView> {
       appBar: AppBar(
         title: const Text("Article View"),
         centerTitle: true,
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.blue,
       ),
       body: Stack(
         children: [
